@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/Users/caojiangtao/.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=/Users/caojiangtao/.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/node-gyp/bin/node-gyp.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.21
+3 info using node@v4.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/caojiangtao/timestamp',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/caojiangtao/.cnpm/timestamp/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/caojiangtao/.cnpm correctMkdir not in flight; initializing
+10 verbose tar pack [ '/Users/caojiangtao/.cnpm/timestamp/1.0.0/package.tgz',
+10 verbose tar pack   '/Users/caojiangtao/timestamp' ]
+11 verbose tarball /Users/caojiangtao/.cnpm/timestamp/1.0.0/package.tgz
+12 verbose folder /Users/caojiangtao/timestamp
+13 info prepublish timestamp@1.0.0
+14 verbose addLocalTarball adding from inside cache /Users/caojiangtao/.cnpm/timestamp/1.0.0/package.tgz
+15 verbose correctMkdir /Users/caojiangtao/.cnpm correctMkdir not in flight; initializing
+16 silly cache afterAdd timestamp@1.0.0
+17 verbose afterAdd /Users/caojiangtao/.cnpm/timestamp/1.0.0/package/package.json not in flight; writing
+18 verbose correctMkdir /Users/caojiangtao/.cnpm correctMkdir not in flight; initializing
+19 verbose afterAdd /Users/caojiangtao/.cnpm/timestamp/1.0.0/package/package.json written
+20 silly publish { name: 'timestamp',
+20 silly publish   version: '1.0.0',
+20 silly publish   description: 'add a timestamp to the html files',
+20 silly publish   main: 'index.js',
+20 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+20 silly publish   author: '',
+20 silly publish   license: 'ISC',
+20 silly publish   bin: { timestamp: './bin/timestamp' },
+20 silly publish   repository:
+20 silly publish    { type: 'git',
+20 silly publish      url: 'git+https://github.com/caojiangtao/timestamp.git' },
+20 silly publish   dependencies:
+20 silly publish    { color: '^0.11.3',
+20 silly publish      commander: '^2.9.0',
+20 silly publish      express: '^4.14.0',
+20 silly publish      fs: '0.0.2',
+20 silly publish      'fs-extra': '^0.30.0',
+20 silly publish      'markdown-it': '^7.0.0',
+20 silly publish      path: '^0.12.7',
+20 silly publish      rd: '0.0.2',
+20 silly publish      'serve-static': '^1.11.1',
+20 silly publish      swig: '^1.4.2' },
+20 silly publish   gitHead: '02284fb3509f87ee40c45d5480f36dd21c1269b8',
+20 silly publish   bugs: { url: 'https://github.com/caojiangtao/timestamp/issues' },
+20 silly publish   readme: 'ERROR: No README data found!',
+20 silly publish   homepage: 'https://github.com/caojiangtao/timestamp#readme',
+20 silly publish   _id: 'timestamp@1.0.0',
+20 silly publish   _shasum: '777ea88e9c67b003161566bf54c3393408b8a007',
+20 silly publish   _from: '.' }
+21 verbose getPublishConfig undefined
+22 silly mapToRegistry name timestamp
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npm.taobao.org/
+25 silly mapToRegistry uri https://registry.npm.taobao.org/timestamp
+26 verbose publish registryBase https://registry.npm.taobao.org/
+27 silly publish uploading /Users/caojiangtao/.cnpm/timestamp/1.0.0/package.tgz
+28 verbose stack Error: auth required for publishing
+28 verbose stack     at CachingRegistryClient.publish (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+28 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/lib/publish.js:134:14
+28 verbose stack     at mapToRegistry (/usr/local/lib/node_modules/cnpm/node_modules/npm/lib/utils/map-to-registry.js:55:3)
+28 verbose stack     at publish_ (/usr/local/lib/node_modules/cnpm/node_modules/npm/lib/publish.js:104:3)
+28 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+28 verbose stack     at LOOP (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+28 verbose stack     at LOOP (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+28 verbose stack     at chain (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+28 verbose stack     at /usr/local/lib/node_modules/cnpm/node_modules/npm/lib/publish.js:73:5
+28 verbose stack     at RES (/usr/local/lib/node_modules/cnpm/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+29 verbose cwd /Users/caojiangtao/timestamp
+30 error Darwin 15.6.0
+31 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm" "--userconfig=/Users/caojiangtao/.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=/Users/caojiangtao/.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/node-gyp/bin/node-gyp.js" "publish"
+32 error node v4.0.0
+33 error npm  v2.14.21
+34 error code ENEEDAUTH
+35 error need auth auth required for publishing
+35 error need auth You need to authorize this machine using `npm adduser`
+36 verbose exit [ 1, true ]
