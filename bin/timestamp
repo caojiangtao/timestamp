@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+var progarm = require('commander');
+//命令版本号
+progarm.version('0.0.1');
+//help命令
+progarm
+	.command('help')
+	.description('显示使用帮助')
+	.action(function(){
+		progarm.outputHelp();
+	});
+
+
+progarm
+	.command('action [dir]')
+	.description('加时间戳')
+	.action(require('../lib/readfile'))
+	.action(function(dir){
+		console.log('preview %s',dir)
+	});
+
+
+	//开始解析命令
+	progarm.parse(process.argv)
