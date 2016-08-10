@@ -1,6 +1,6 @@
 {
-  "name": "timestamp",
-  "version": "0.0.3",
+  "name": "timestamp007",
+  "version": "0.0.5",
   "description": "add a timestamp to the html files",
   "main": "index.js",
   "scripts": {

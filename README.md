@@ -1,6 +1,6 @@
 #timestamp007#
 "timestamp"that name was by other pepole used, so this plug-in name is  "timestamp 007”</p>
-Timestamp007 "is used to add a timestamp to the" js "and" CSS ".
+Timestamp007 "is used to add a timestamp to the" js "and" CSS,png,jpg ".
 
     How to used? like this:
     
@@ -24,6 +24,12 @@ Timestamp007 "is used to add a timestamp to the" js "and" CSS ".
             		<title></title>
             		<link rel="stylesheet" type="text/css" href="./css/headerandfooter.css?t=1470744033000" />
             		<script type="text/javascript" src="./static/scripts/setcookie.js?t=1470744033000"></script>
+            		<body>
+            		<a href="connect/qq"><img src="images/qq-icon.png?t=1470800159000" width="50" /></a>
+                    					<a href="./connect/weixin"><img src="images/wx-icon.png?t=1470800159000" width="50" /></a>
+                    					<a href="./connect/weibo"><img src="images/sina-icon.png?t=1470800159000" width="50" /></a>
+                    					<a href="./connect/weibo"><img src="images/sina-icon.jpg?t=1470800159000" width="50" /></a>
+            		</body>
             </html>
        
        
