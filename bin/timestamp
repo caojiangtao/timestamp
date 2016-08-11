@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 var progarm = require('commander');
 //命令版本号
 progarm.version('0.0.1');
@@ -17,7 +16,7 @@ progarm
 	.description('加时间戳')
 	.action(require('../lib/readfile'))
 	.action(function(dir){
-		console.log('preview %s',dir)
+		console.log("极客出品")
 	});
 
 

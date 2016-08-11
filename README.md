@@ -8,11 +8,10 @@ Timestamp007 "is used to add a timestamp to the" js "and" CSS,png,jpg ".
 
     
     When installing the end 
-    
-        $ cd /Your project;(Include "*.html")
+        $ cd /project
         $  timestamp  action     
         or   
-        $  timestamp  action  /yourprlject        
+        $  timestamp  /project/index.html       
         
        For example:
          $ timestamp action /Users/river/web
