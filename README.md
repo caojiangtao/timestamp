@@ -11,7 +11,7 @@ Timestamp007 "is used to add a timestamp to the" js "and" CSS,png,jpg ".
         $ cd /project
         $  timestamp  action     
         or   
-        $  timestamp  /project/index.html       
+        $  timestamp action index.html       
         
        For example:
          $ timestamp action /Users/river/web
