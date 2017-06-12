@@ -1,17 +1,19 @@
 #timestamp007#
-"timestamp"that name was by other pepole used, so this plug-in name is  "timestamp 007”</p>
-Timestamp007 "is used to add a timestamp to the" js "and" CSS,png,jpg ".
+##
 
-    How to used? like this:
+    How to used? :
     
    <strong> npm install timestamp007 -g;</strong>        
 
     
     When installing the end 
-        $ cd /project
-        $  timestamp  action     
-        or   
-        $  timestamp action index.html       
+    		如：你的project项目下的test目录下的.html和.tpl里的.js,.css,.jpg,.png需要加时间戳。
+        $ cd /project        //进入到你的项目上一级目录
+        $  timestamp  action test  //执行
+        or  
+        $ cd /project 
+         $ cd /project/test
+        $  timestamp action index.html    //对单个文件加时间戳   
         
        For example:
          $ timestamp action /Users/river/web
