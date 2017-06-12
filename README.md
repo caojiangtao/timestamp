@@ -1,5 +1,4 @@
 #timestamp007#
-##
 
     How to used? :
     
@@ -7,16 +6,18 @@
 
     
     When installing the end 
-    		如：你的project项目下的test目录下的.html和.tpl里的.js,.css,.jpg,.png需要加时间戳。
+        如：你的project项目下的test目录下的.html和.tpl里的.js,.css,.jpg,.png需要加时间戳。
+       
         $ cd /project        //进入到你的项目上一级目录
-        $  timestamp  action test  //执行
+        $  timestamp  action test  //执行###
+        
         or  
-        $ cd /project 
-         $ cd /project/test
+        
+        $ cd / project  
+        $ cd / project/test
         $  timestamp action index.html    //对单个文件加时间戳   
         
        For example:
-         $ timestamp action /Users/river/web
          
         <!DOCTYPE html>
             <html>
